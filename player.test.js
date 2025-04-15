@@ -1,5 +1,5 @@
-const Player = require('./player');
-const Gameboard = require('./gameboard');
+import Player from './player';
+import Gameboard from './gameboard';
 
 describe('Player', () => {
     let player;

@@ -1,4 +1,4 @@
-import Ship from './Ship';
+import Ship from './Ship.js';
 
 class Gameboard {
     constructor(){
@@ -77,4 +77,4 @@ class Gameboard {
 
 
 
-module.exports = gameboard
+module.exports = Gameboard

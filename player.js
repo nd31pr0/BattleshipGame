@@ -12,7 +12,7 @@ class Player {
         if (this.isComputer) {
             return this.#computerAttack(opponentBoard)
         } else {
-            if (!coordinate) {
+            if (!coordinates) {
                 throw new Error('Human player must provide coordinates');
             }
             return this.#humanAttack(opponentBoard, coordinates);
