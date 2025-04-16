@@ -19,7 +19,7 @@ class Gameboard {
             (direction === 'horizontal' && col + ship.length > 10) ||
             (direction === 'vertical' && row + ship.length > 10)
         ){
-            throw new Error('Ship placement out of bounds');
+            throw new Error('ship placement out of bounds');
         }
 
         // Check for overlapping ships
